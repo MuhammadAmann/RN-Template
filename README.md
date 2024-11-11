@@ -4,7 +4,22 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
+## Installation
+```bash
+npx react-native init AwesomeTSProject --template=https://github.com/MuhammadAmann/RN-Template
+
+yarn or yarn install 
+
+yarn pod
+
+```
+
 ## Step 1: Start the Metro Server
+```bash
+# using npm
+npm run android
+
+```
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
