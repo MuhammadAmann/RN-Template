@@ -2,7 +2,7 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import RNBootSplash from 'react-native-bootsplash';
 import HomeStack from './HomeStack';
-import {useAppSelector} from 'src/Helper/Hooks/reduxHooks';
+import {useAppSelector} from 'ProjectName/src/Helper/Hooks/reduxHooks';
 import AuthStack from './AuthStack';
 
 const Navigation = () => {

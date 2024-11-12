@@ -1,12 +1,12 @@
 import React from 'react';
 import {Animated, Easing} from 'react-native';
 import Icon, {IconType} from 'react-native-dynamic-vector-icons';
-import Header from 'src/Components/Header';
-import Text from 'src/Components/Text';
-import View from 'src/Components/View';
-import {THomeScreen} from 'src/Navigation/types';
-import {LOGOUT} from 'src/Redux/Reducers/Auth/actions';
-import globalStyles from 'src/config/globalStyles';
+import Header from 'ProjectName/src/Components/Header';
+import Text from 'ProjectName/src/Components/Text';
+import View from 'ProjectName/src/Components/View';
+import {THomeScreen} from 'ProjectName/src/Navigation/types';
+import {LOGOUT} from 'ProjectName/src/Redux/Reducers/Auth/actions';
+import globalStyles from 'ProjectName/src/config/globalStyles';
 const Home: THomeScreen<'Home'> = () => {
   const fadeValue = React.useRef(new Animated.Value(0)).current;
   const slideValue = React.useRef(new Animated.Value(0)).current;

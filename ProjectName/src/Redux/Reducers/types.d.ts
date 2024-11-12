@@ -1,4 +1,4 @@
-import {IUser} from './Auth/actions.d';
+import {IUser} from './Auth/actions';
 
 interface TMongoCommon {
   _id: string;

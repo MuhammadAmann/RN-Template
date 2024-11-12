@@ -121,9 +121,9 @@ import React from 'react';
 import {LogBox, StatusBar} from 'react-native';
 import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
-import {persistor, store} from './src/Redux/ConfigureStore';
-import Navigation from './src/Navigation';
-import Snackbar from './src/Components/Snackbar';
+import {persistor, store} from './ProjectName/src/Redux/ConfigureStore';
+import Navigation from './ProjectName/src/Navigation';
+import Snackbar from './ProjectName/src/Components/Snackbar';
 
 LogBox.ignoreAllLogs();
 

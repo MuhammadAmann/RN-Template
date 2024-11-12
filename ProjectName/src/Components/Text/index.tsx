@@ -1,9 +1,9 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import {Text as RNText} from 'react-native';
-import globalStyles from 'src/config/globalStyles';
-import {fontRef, heightRef} from 'src/config/screenSize';
-import {TypographyStyles} from 'src/config/styles';
+import globalStyles from 'ProjectName/src/config/globalStyles';
+import {fontRef, heightRef} from 'ProjectName/src/config/screenSize';
+import {TypographyStyles} from 'ProjectName/src/config/styles';
 import {ITextProps} from './types';
 
 const Text = ({

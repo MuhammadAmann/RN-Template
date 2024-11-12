@@ -1,5 +1,5 @@
-import {showSnackbar} from 'src/Components/Snackbar';
-import {getRedux} from 'src/Redux/function';
+import {showSnackbar} from 'ProjectName/src/Components/Snackbar';
+import {getRedux} from 'ProjectName/src/Redux/function';
 // import Axios from 'src/config/Axios'; // To call API Client ***
 
 export const USER_LOGOUT = 'USER_LOGOUT';
